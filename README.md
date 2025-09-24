@@ -10,7 +10,6 @@ Small businesses need an online product display without complex backends. This p
 - HTML
 - CSS
 - JavaScript
-- (Optional: Swiper.js)
 
 ## 🔗 Upgrade
 In this version, we integrate a free E-Commerce API (Fake Store API / DummyJSON API) to fetch products dynamically instead of hardcoding them.
@@ -28,7 +27,6 @@ In this version, we integrate a free E-Commerce API (Fake Store API / DummyJSON 
 
 ## 🌐 APIs Used
 - [Fake Store API](https://fakestoreapi.com/) (beginner-friendly)
-- or [DummyJSON API](https://dummyjson.com/) (supports search & pagination)
 
 ## 🎨 Color Palette
 Our carefully chosen color scheme creates a warm, professional, and user-friendly shopping experience:
@@ -62,15 +60,14 @@ Ecommerce-Showcase/
 │── index.html        # Main entry point
 │── style.css         # Stylesheet
 │── script.js         # Core JS logic
-│── /assets           # Images/icons (if needed)
-│── /components       # Optional: reusable UI parts
+│── /assets           # Images/icons
 └── README.md         # Project documentation
 ```
 
 ## ⚙️ Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/swapnilsanap7/ecommerce-showcase.git
+   git clone https://github.com/Swapnilsanap7/Ecommerce-Showcase.git
    cd ecommerce-showcase
    ```
 2. Open `index.html` in your browser.
