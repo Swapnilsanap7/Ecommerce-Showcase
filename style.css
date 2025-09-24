@@ -1,14 +1,16 @@
-/* CSS Variables for Color Palette */
+/* --- CSS Variables for Color Palette REFINEMENT --- */
 :root {
-    --action-color: #A2AF9B;      /* Muted Green - for buttons and actions */
-    --main-bg: #FAF9EE;           /* Light Cream - main background */
-    --section-bg: #DCCFC0;        /* Soft Beige - sections & highlights */
-    --ui-details: #EEEEEE;        /* Very Light Gray - borders & details */
-    --text-color: #333333;        /* Dark Gray - primary text */
+    --action-color: #A2AF9B;            /* Muted Green - ACTION COLOR */
+    --action-hover: #8fa085;           /* Slightly Darker Green for hover */
+    --price-color: #7b9074;            /* Darker Green for Prices */
+    --main-bg: #FAF9EE;                /* Light Cream - main background */
+    --section-bg: #DCCFC0;             /* Soft Beige - sections & highlights */
+    --ui-details: #EEEEEE;             /* Very Light Gray - borders & details */
+    --text-color: #333333;             /* Dark Gray - primary text */
     --white: #FFFFFF;
     --shadow: rgba(0, 0, 0, 0.1);
-    --promo-bg: #2c5530;          /* Dark green for promo banner */
-    --promo-accent: #ffd700;      /* Gold for promo code */
+    --promo-bg: #2c5530;               /* Dark green for promo banner */
+    --promo-accent: #ffd700;           /* Gold for promo code */
 }
 
 /* Reset and Base Styles */
@@ -418,7 +420,7 @@ body.no-promo-banner {
 }
 
 .apply-price:hover {
-    background-color: #8fa085;
+    background-color: var(--action-hover);
 }
 
 /* Sort Options */
@@ -563,7 +565,7 @@ body.no-promo-banner {
 .product-price {
     font-size: 1.3rem;
     font-weight: bold;
-    color: var(--action-color);
+    color: var(--price-color);
     margin-bottom: 1rem;
 }
 
@@ -590,7 +592,7 @@ body.no-promo-banner {
 }
 
 .btn-primary:hover {
-    background-color: #8fa085;
+    background-color: var(--action-hover);
 }
 
 .btn-secondary {
@@ -684,7 +686,7 @@ body.no-promo-banner {
 }
 
 .checkout-btn:hover {
-    background-color: #8fa085;
+    background-color: var(--action-hover);
 }
 
 /* Footer */
@@ -951,7 +953,7 @@ body.no-promo-banner {
 .product-detail-price {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--action-color);
+    color: var(--price-color);
     margin-bottom: 1rem;
 }
 
